@@ -43,7 +43,7 @@ To perform the benchmark, it is required to follow the steps as below:
 
 4. Compute explanations. See `benchmark-cv/run_expl.sh` for image modality. See `benchmark-nlp/run_expl.sh` for text modality. We compute all the explanation results at once and save them locally. This can avoid repeating the computations.
 
-5. Eval MoRF,ABPC. See `benchmark-cv/run_eval.sh` for image modality. See `benchmark-nlp/run_eval*.sh` for text modality.
+5. Eval MoRF,ABPC. See `benchmark-cv/run_eval.sh` for image modality. See `benchmark-nlp/run_eval.sh` for text modality.
 
 6. Eval Others. See `benchmark-cv/run_eval-pgs.sh` for image modality. See `benchmark-nlp/run_eval2.sh` for text modality.
 
